@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Humanbumsuk";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "Humanbumsuk";
+  font-weight: normal;
+  letter-spacing: -0.5px;
+}
+h4 {
+  font-size: 26px;
+}
+p {
+  font-size: 20px;
+}
+.title {
+  font-weight: 700;
+  font-size: 30px;
+}
+.btn {
+  background: #70b9f7;
+  color: white;
+}
+
+.info {
+  border-left: 1.8px solid rgb(112, 185, 247, 0.4);
+  padding: 13px;
+  text-align: center;
+  font-size: 22px;
+}
+.white-box {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+
+.pill {
+  display: inline-block;
+  border: 1px solid lightgray;
+  border-radius: 100px;
+  padding: 3px 12px 5px 12px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+}
